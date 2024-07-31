@@ -1,0 +1,47 @@
+.testimonials {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 200px;
+
+  &__title {
+    font-family: $font-family-base;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 121%;
+    text-align: center;
+    color: $title-color;
+    margin-bottom: 40px;
+  }
+
+  &__switch {
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    font-family: $font-family-base;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 178%;
+    text-align: center;
+    color: $title-color;
+    max-width: 755px;
+    margin: 0px 115px 0px 115px;
+  }
+
+  &__button {
+    border-radius: 100%;
+    background-color: #EFF2F1;
+    width: 58px;
+    height: 58px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 500ms ease;
+  }
+
+  &__button:hover {
+    background-color: $primary-color;
+    transition: all 500ms ease;
+  }
+}

@@ -1,0 +1,98 @@
+.design {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 30px;
+
+  &__help {
+    display: flex;
+  }
+
+  &__assistance {
+    position: relative;
+  }
+
+  &__dotted,
+  &__plants,
+  &__chair,
+  &__lamp {
+    position: absolute;
+  }
+
+  &__plants {
+    left: 50px;
+    top: 50px;
+  }
+
+  &__chair {
+    left: 380px;
+    top: 280px;
+  }
+
+  &__lamp {
+    left: 480px;
+    top: 50px;
+  }
+
+  &__information {
+    margin-left: 710px;
+    margin-top: 100px;
+  }
+
+  &__title {
+    font-family: $font-family-base;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 121%;
+    color: $title-color;
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    font-family: $font-family-base;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    color: $text-color;
+    margin-bottom: 50px;
+  }
+
+  &__explore {
+    justify-content: center;
+  }
+
+  &__guidance {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 500px;
+  }
+
+  &__info {
+    font-family: $font-family-base;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 136%;
+    color: $text-color;
+    max-width: 200px;
+    margin-bottom: 20px;
+  }
+
+  &__info:nth-child(1),
+  &__info:nth-child(3) {
+    margin-right: 30px;
+  }
+
+  &__button {
+    font-family: $font-family-base;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: $secondary-color;
+    border-radius: 30px;
+    width: 122px;
+    height: 50px;
+    background: $title-color;
+    cursor: pointer;
+  }
+}

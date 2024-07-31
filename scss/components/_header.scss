@@ -1,0 +1,139 @@
+
+.container {
+  display: flex;
+  width: 1140px;
+}
+
+.hero {
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: $primary-color;
+
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__logo {
+    margin-top: 50px;
+    font-family: $font-family-base;
+    font-weight: 500;
+    font-size: 32px;
+    color: $secondary-color;
+  }
+
+  &__nav {
+    display: flex;
+    margin-left: 435px;
+  }
+
+  &__list {
+    display: flex;
+  }
+
+  &__item {
+    margin-top: 55px;
+    font-family: $font-family-base;
+    font-weight: 500;
+    font-size: 16px;
+    color: $secondary-color;
+    white-space: nowrap;
+
+    &:not(:last-child) {
+      margin-right: 45px;
+    }
+
+    &:not(:first-child) {
+      opacity: 0.5;
+    }
+  }
+
+  &__profile {
+    margin-left: 70px;
+    display: flex;
+  }
+
+  &__icon {
+    margin-top: 50px;
+    stroke-width: 2px;
+    fill: $primary-color;
+    stroke: $secondary-color;
+
+    &:not(:first-child) {
+      margin-left: 20px;
+    }
+  }
+
+  &__title {
+    font-family: $font-family-base;
+    margin-top: 150px;
+    font-weight: 600;
+    font-size: 54px;
+    color: #fff;
+  }
+
+  &__button {
+    display: flex;
+    margin-top: 80px;
+  }
+
+  &__shop {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: #2f2f2f;
+    border-radius: 30px;
+    border-color: #f9bf29;
+    width: 150px;
+    background: #f9bf29;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  &__explore {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 175%;
+    text-align: center;
+    color: $secondary-color;
+    border: 2px solid rgba(255, 255, 255, 0.29);
+    border-radius: 30px;
+    width: 132px;
+    height: 50px;
+    background-color: $primary-color;
+    cursor: pointer;
+  }
+
+  &__picture {
+    position: relative;
+  }
+
+  &__main {
+    display: flex;
+  }
+
+  &__sofa {
+    position: relative;
+    margin-left: 45px;
+    width: 710px;
+    height: 481px;
+    z-index: 2;
+  }
+
+  &__dotted {
+    position: absolute;
+    right: 0;
+    z-index: 1;
+  }
+}
+

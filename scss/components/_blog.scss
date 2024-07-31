@@ -1,0 +1,36 @@
+.blog {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 50px;
+
+  &__heading {
+    font-family: $font-family-base;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 121%;
+    color: $title-color;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    display: flex;
+    gap: 20px;
+  }
+
+  &__signature {
+    font-family: $font-family-base;
+    font-weight: 600;
+    font-size: 18px;
+    color: $title-color;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
+
+  &__describe {
+    font-family: $font-family-base;
+    font-weight: 400;
+    font-size: 14px;
+    color: $title-color;
+  }
+}

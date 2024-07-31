@@ -1,0 +1,94 @@
+.catalog {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+    &__title {
+      font-family: $font-family-base;
+      font-weight: 600;
+      font-size: 34px;
+      color: $title-color;
+      margin-top: 170px;
+      margin-bottom: 25px;
+    }
+  
+    &__decribtion {
+      max-width: 220px;
+      padding-right: 65px;
+    }
+  
+    &__decribe {
+      font-family: $font-family-base;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 171%;
+      color: $text-color;
+      margin-bottom: 25px;
+    }
+  
+    &__button {
+      font-family: $font-family-base;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 175%;
+      text-align: center;
+      color: $secondary-color;
+      border-radius: 30px;
+      width: 122px;
+      height: 50px;
+      background: $title-color;
+      border-color: $secondary-color;
+      cursor: pointer;
+    }
+  
+    &__armchair {
+      display: flex;
+    }
+  
+    &__cost {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 120px;
+      width: 296px;
+      transition: all 500ms ease;
+    }
+  
+    &__cost:hover {
+      border-radius: 20px;
+      background: rgba(53, 115, 110, 0.1);
+      transition: all 500ms ease;
+    }
+    
+    &__product {
+      margin-top: 30px;
+      margin-bottom: 5px;
+      font-family: $font-family-base;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 150%;
+      text-align: center;
+      color: $title-color;
+    }
+  
+    &__price {
+      font-family: $font-family-base;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 133%;
+      text-align: center;
+      color: $title-color;
+    }
+  
+    &__plus {
+      border-radius: 100%;
+      margin-top: 20px;
+      background-color: $title-color;
+      box-shadow: 0 7px 15px -1px rgba(0, 0, 0, 0.4);
+      width: 30px;
+      height: 30px;
+      cursor: pointer;
+      border-color: $title-color;
+    }
+  }
